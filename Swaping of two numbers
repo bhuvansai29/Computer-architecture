@@ -1,0 +1,21 @@
+swaping of two numbers
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+
+LDA 2001
+MOV B,A
+LDA 2002
+MOV C,A
+STA 2003
+MOV A,B
+STA 2004
+rst 1
+
+hlt
