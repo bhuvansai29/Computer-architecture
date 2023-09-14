@@ -1,0 +1,18 @@
+one's and two's compliment
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+LDA 3000
+CMA
+STA 3001
+ADI 01
+STA 3002
+rst 1
+
+hlt
