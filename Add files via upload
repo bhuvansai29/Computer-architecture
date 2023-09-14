@@ -1,0 +1,21 @@
+Add files via upload
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+
+MVI A,02
+RLC
+RLC
+RLC
+RLC
+STA  05
+HLT
+ 
+
+hlt
